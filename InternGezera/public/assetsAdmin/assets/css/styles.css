@@ -1,0 +1,60 @@
+#fullpage {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat no-repeat;
+    background-position: center center;
+    background-color: rgba(0, 0, 0, 0.348);
+  }
+
+.deleteColorImage{
+    cursor: pointer;    
+}
+
+.add-more-select-button{
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.products-select-parent{
+  position: relative;
+}
+
+.delete-selects{
+  position: absolute;
+  right: -15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.order-details-btn{
+  transform: scale(0.7);
+}
+
+.table-text-black td,.table-text-black p{
+  color: black !important;
+  font-weight: bolder;
+}
+
+.table--wrap td{
+  white-space: initial !important;
+  padding: 5px 3px !important;
+}
+
+.table--wrap th{
+  white-space: initial !important;
+}
+
+.table--wrap th::before{
+  top: 1rem !important;
+}
+
+.table--wrap th::after{
+  top: 2rem !important;
+}
